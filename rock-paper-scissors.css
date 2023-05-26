@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(46, 46, 46);
+}
+p{
+    font-family: Roboto, Arial, sans-serif;;
+    color: white;
+}
+.game-name{
+    font-size: 30px;
+    font-weight: 700;
+    cursor: default;
+}
+.emoji{
+    background-color: rgb(107, 107, 107);
+    border-radius: 300px;
+    border-style: solid;
+    border-color: white;
+    padding: 50px 50px 50px 50px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(21, 23, 156, 0.5);
+    margin-right: 15px;
+}
+.emoji:hover{
+    background-color: grey;
+}
+ .e-icon{
+    height:200px;
+ }
+.e-icon:hover{
+    position: relative;
+    top: 10px;
+ }
+ .conditions{
+    font-size: 30px;
+    cursor: default;
+ }
+ .game-result{
+    color: yellow;
+    font-size: 50px;
+    font-weight: 500;
+ }
+ .reset-score,.auto-play-button{
+    color: green;
+    font-weight: 500;
+ }
+ .reset-button,.auto-play-button{
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(3, 87, 184);
+    color: white;
+    border: none;
+    border-radius: 90px;
+    transition: opacity 0.5s;
+    cursor: pointer;
+    
+ }
+ .reset-button:hover, .auto-play-button:hover{
+    opacity: 0.8;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+    box-shadow: 5px 5px 10px rgba(156, 21, 21, 0.5);
+ }
+ .reset-button:active, .auto-play-button:active{
+    opacity: 0.5;
+ }
